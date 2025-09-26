@@ -8,7 +8,7 @@ function Disciplina ({codigo, nome}: DisciplinaProps){
     return (
         <div className="disciplina"> 
             <div>{codigo}</div>
-            <div>{nome} Web</div>
+            <div>{nome}</div>
         </div>
     )
 }
